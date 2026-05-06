@@ -1,16 +1,52 @@
-!DOCTYPE html> 
+<!DOCTYPE html> 
 <html> 
 <head> 
 <title>My Website</title> 
 </head> 
 <body> 
 
-    <nav> 
+   <nav> 
 <a href="index.html">Home</a> | 
 <a href="about.html">About</a> | 
 <a href="contact.html">Contact</a> 
+<a href="video.html">video</a>
 </nav> 
 <hr> 
-
+    
+<section> 
+<form> 
+<label>Name:</label><br> 
+<input type="text" name="name" placeholder="Enter your name" 
+required><br><br> 
+<label>Email:</label><br> 
+<input type="email" name="email" placeholder="Enter your email" 
+required><br><br> 
+<label>Message:</label><br> 
+<textarea name="message"></textarea><br><br> 
+<label>Country:</label><br> 
+<select name="country"> 
+<option>Somaliland</option> 
+<option>Ethiopia</option> 
+</select><br><br> 
+<button type="submit">Send</button> 
+</form> 
+</section> 
+<hr> 
+<section> 
+<h2>Office Info</h2> 
+<table border="1"> 
+<tr> 
+<th>City</th> 
+<th>Phone</th> 
+</tr> 
+<tr> 
+<td>Hargeisa</td> 
+<td>252-63-4705869</td> 
+</tr> 
+</table> 
+</section> 
+<footer> 
+<p>Contact Page Footer</p> 
+</footer>
 </body> 
 </html> 
